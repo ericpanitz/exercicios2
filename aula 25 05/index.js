@@ -60,6 +60,6 @@ let num1 = Number(prompt("Digite o primeiro número:"));
 let num2 = Number(prompt("Digite o segundo número:")); 
 
 console.log("O primeiro número é maior que o segundo? " + (num1 > num2));
-console.log("O segundo número é par? " + (num2 % 2 === 0));
-console.log("Os números são diferentes? " + (num1 !== num2)); 
-
+console.log("O primeiro número é igual ao segundo?" + (num1 = num2));
+console.log("O primeiro número é divisivel pelo segundo?" + (num1 % num2 === 0));
+console.log("O segundo número é divisivel pelo primeiro?" + (num2 % num1 === 0));
